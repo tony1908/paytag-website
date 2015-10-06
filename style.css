@@ -1,0 +1,264 @@
+html{
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	height: 100%;
+}
+
+body { height: 100%;}
+
+p, h3, h2, a{
+	font-family: 'Roboto', sans-serif;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+
+nav{
+	background: none; 
+}
+
+nav img{
+	height: 100%; float: right; margin-left: 20px;
+}
+
+.navbar-default{
+	background-image: none !important; border:none; background-color: transparent; height: 10%;
+}
+
+.navbar-brand{
+	padding: 4px 4px; margin-top: 7px;
+}
+
+.navbar-default .container{
+	height: 100%; background-color: rgba(20,20,20,0.2); width: 100%;
+}
+
+.full-diapositive{
+	height: 100%;
+}
+
+.navigation-links-bar{
+	padding: 20px; list-style-type: none;
+}
+
+.navigation-links-bar li a{
+	margin: 30px; font-size: 1.7rem; color: #fff;
+}
+
+.navigation-links-bar > *{
+	float: left;
+}
+
+.navigation-links-bar .boton-inicial{
+	border: 2px solid #d32e2e; padding: 5px 15px; margin: -6px auto 0;
+    -webkit-box-shadow: 0px 1px 6px 0px rgba(32,32,32,1); -moz-box-shadow: 0px 1px 6px 0px rgba(32,32,32,1); box-shadow: 0px 1px 6px 0px rgba(32,32,32,1);
+    display: block; color: #d32e2e; font-size: 1.5rem; width: 120px; transition: background-color 0.5s ease;
+    border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+}
+
+.navigation-links-bar .boton-inicial:hover{
+	background-color: #d32e2e; color: #fff;
+}
+
+/* Primera diapositiva */
+
+.owl-wrapper-outer, .owl-wrapper, .owl-item{
+	height: 100%; 
+}
+
+#first-diapositive{
+	padding: 0;
+}
+
+.contenido{
+	height: 100%; background-size: cover; background-position:50% 50%;
+	background-color: rgba(0,0,0, 0.5);
+}
+
+.owl-item:nth-child(1) .contenido{
+	background-image: url('img/back1.jpg');
+}
+
+.owl-item:nth-child(2) .contenido{
+	background-image: url('img/banner.jpg'); background-size: 100%; 
+}
+
+.owl-item:nth-child(3) .contenido{
+	background-image: url('http://katalyst.co.nz/wp-content/uploads/2015/06/9939131.jpg');
+}
+
+/* Overlay para la primera diapositiva que nos permitira poner los elementos del inicio */
+
+.principal-subtext{
+	text-align: center; font-size: 1.5rem; color: #fff; padding: 0 10px;
+}
+
+.principal-tittle{
+	color: #fff; font-size: 5rem; text-align: center; line-height: 120%;
+    font-weight: 500; text-shadow: 1px 1px 1px #202020; padding: 370px 20px 0; 
+}
+
+#first-diapositive a{
+	border: 2px solid #d32e2e; padding: 10px 14px; margin: 0 auto;
+    -webkit-box-shadow: 0px 1px 6px 0px rgba(32,32,32,1); -moz-box-shadow: 0px 1px 6px 0px rgba(32,32,32,1); box-shadow: 0px 1px 6px 0px rgba(32,32,32,1);
+    display: block; color: #d32e2e; font-size: 2rem; width: 180px; transition: background-color 0.5s ease;
+    border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+}
+
+#first-diapositive a:hover{
+	background-color: #d32e2e; color: #fff;
+}
+
+/* Estilos para la segunda diapositiva */
+
+#second-diapositive{
+	background-color: #fafafa;
+}
+
+#second-diapositive h2{
+	color: #202020; font-weight: 300; text-align: center; 
+}
+
+#second-diapositive .informacion-segunda{
+	font-weight: lighter; text-align: center; font-size: 2rem;  margin-bottom: 30px;
+	text-transform: uppercase;
+}
+
+#second-diapositive .titulo-informativa{
+	text-align: center; font-weight: 900; font-size: 2rem;
+}
+
+#second-diapositive img{
+	margin: 0 auto; -webkit-box-shadow: 2px 2px 7px 0px rgba(199,199,199,1);
+	-moz-box-shadow: 2px 2px 7px 0px rgba(199,199,199,1);
+	box-shadow: 2px 2px 7px 0px rgba(199,199,199,1);
+}
+
+#second-diapositive .second-information-side{
+	margin-top: 10px; text-align: center;
+}
+
+/* Aqui terminan */
+#third-diapositive{
+	background-color: #d32e2e;
+}
+
+.third-tittle{
+	color: #fff; text-align: center; font-weight: 100; margin-bottom: 50px;
+}
+
+.fort-card{
+	margin: 30px 0;
+}
+
+.fort-card div{
+	padding: 10px 15px; height: 65px;
+	-webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16); -moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16); box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+}
+
+.fort-card img{
+	margin-bottom: 5px;
+}
+
+.fort-card div:nth-child(1){
+	background-color: #fff;
+	-webkit-border-top-left-radius: 2px; -webkit-border-bottom-left-radius: 2px; -moz-border-radius-topleft: 2px;
+	-moz-border-radius-bottomleft: 2px; border-top-left-radius: 2px; border-bottom-left-radius: 2px;
+}
+
+.fort-card div:nth-child(2){
+	background-color: #00bcd4; font-size: 1rem;
+	-webkit-border-top-right-radius: 2px; -webkit-border-bottom-right-radius: 2px; -moz-border-radius-topright: 2px; 
+	-moz-border-radius-bottomright: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px;
+}
+
+.contenido-informativa{
+	color: #fff;
+}
+
+/* Para la cuarta diapositiva */
+#fourth-diapositive .four-tittle{
+	color: #727272; text-align: center; margin: 20px 0; font-size: 3rem;
+}
+
+#fourth-diapositive img{
+	margin: 0 auto; height: 80px;
+}
+
+#fourth-diapositive .pay-type{
+	margin: 10px 0;
+}
+
+#fourth-diapositive .pay-type p{
+	text-align: center; font-size: 1.3rem; font-weight: 300;
+}
+
+/* Para la quinta diapositiva */
+#five-diapositive{
+	background-color: #202020;
+}
+
+.five-tittle{
+	margin-top: 15px; color: #AB2178; text-align: center;
+    margin: 20px 0; font-size: 3rem; font-weight: 100;
+}
+
+#five-diapositive .purpuled{
+	color: #797979;
+}
+
+.informative-circle{
+	width: 80px; height: 80px; border-radius: 100%; -webkit-border-radius: 100%; -moz-border-radius: 100%;
+	background-color: #202020; margin: 15px 5px; clear: both;
+	transition: background-color 0.5s ease; float: left;
+}
+
+.informative-circle:hover{
+	background-color: #AB2178;
+}
+
+.informative-circle:nth-child(3), .informative-circle:nth-child(5){
+	float: right;
+}
+
+#five-diapositive .glyphicon{
+	margin: 20px 19px; font-size: 4rem; color: #fff;
+}
+
+#five-diapositive p{
+	margin-top: 35px;
+}
+
+/* Para el footer */
+footer{
+	background-color: #fafafa;
+}
+
+footer img{
+	width: 80px; margin: 10px;
+}
+
+.social-circle{
+	width: 40px; height: 40px; border: 1px solid #202020;
+    border-radius: 100%; background-color: #fff;
+    transition: background-color 0.5s ease; margin: 30px auto 0;
+}
+
+.social-circle:hover{
+	background-color: #d32e2e;
+	 border: 1px solid #d32e2e;
+}
+
+.social-circle i{
+	color: #202020;
+	transition: color 0.5s ease;
+}
+
+.social-circle i:hover{
+	color: #fff;
+}
+
+.copy-right{
+	margin: 0 auto; text-align: center; color: #727272;
+}

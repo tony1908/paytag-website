@@ -1,0 +1,68 @@
+/* Animaciones y colores de los textos */
+.reded{
+	transition: color 0.5s ease;
+}
+
+.reded:hover{
+	color: #d32e2e !important;
+}
+
+.blueded{
+	transition: color 0.5s ease;
+}
+
+.blueded:hover{
+	color: #00bcd4 !important;
+}
+
+.purpuled{
+	transition: color 0.5s ease;
+}
+
+.purpuled:hover{
+	color: #AB2178 !important;
+}
+/* Aqui terminan*/
+
+#menu-desplegable-boton{
+	display: inline;
+}
+
+.side-bar{
+	position: fixed; right: 0; width: 200px; background-color: #202020; height: 91%; top: 9.5%;
+	display: none; z-index: 100;
+}
+
+.side-bar h3{
+	font-weight: bolder; margin-left: 10px; color: #fff;
+}
+
+.side-bar span{
+	width: 100%;
+}
+
+.side-bar span a{
+	text-decoration: none;
+}
+
+.side-bar span p{
+	margin-left: 10px; color: #fff; font-weight: 100; font-size: 2rem;	
+}
+
+@media (orientation: landscape) and (max-width: 768px){
+	.full-diapositive{
+		height: 150%;
+	}
+
+	.fort-card img {
+	    width: 50px;
+	}
+
+	.principal-tittle{
+		padding: 170px 20px 0;
+	}
+}
+
+@media (min-width: 768px){
+	
+}

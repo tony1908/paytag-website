@@ -1,0 +1,58 @@
+@media (min-width: 992px) {
+	.full-diapositive{
+		height: 92vh;
+	}
+
+	.principal-subtext{
+		text-align: left; margin-left: 100px; width: 300px; font-size: 1.7rem;
+	}
+
+	.principal-tittle{
+		font-size: 7rem; text-align: left; margin-left: 100px; padding: 270px 0 0; 
+	}
+
+	#menu-desplegable-boton{
+		display: none;
+	}
+
+	#second-diapositive h2{
+		margin-top: 10vh;
+	}
+
+	#second-diapositive .second-information-side{
+		font-size: 2rem; margin-top: 100px;
+	}
+
+	#second-diapositive .informacion-segunda{
+		margin-bottom: 50px;
+	}
+
+	.third-tittle{
+		margin-bottom: 0;
+	}
+
+	.fort-card img{
+		margin-bottom: 1px;
+	}
+
+	.fort-card div{
+		height: 90px;
+	}
+
+	.fort-card div:nth-child(2){
+		 font-size: 1.5rem;
+	}
+
+	#fourth-diapositive .pay-type {
+    	margin: 40px 0;
+	}
+
+	#five-diapositive{
+		height: 65%;
+	}
+
+	#five-diapositive p {
+	    margin-top: 45px;
+	}
+}
+
